@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600|Montserrat:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="banner-text">
+        <h1>CodeAndCreate</h1>
+        <p>Learn how to code</p>
+      </div>
+      <div class="btns">
+        <button class="btn login-btn">Login</button>
+        <button class="btn signup-btn">Sign Up</button>
+      </div>
+      <div class="form-container">
+        <div class="signup-form-wrapper modal">
+          <div class="x-btn signup-x">
+            &times;
+          </div>
+          <div class="form-header">
+            <h1>CodeAndCreate</h1>
+            <h3>Join Us</h3>
+          </div>
+          <form class="form">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-group">
+              <i class="far fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-key"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <button type="button">Sign Up</button>
+          </form>
+        </div>
+        <div class="login-form-wrapper modal">
+          <div class="x-btn login-x">
+            &times;
+          </div>
+          <div class="form-header">
+            <h1>CodeAndCreate</h1>
+            <h3>Login</h3>
+          </div>
+          <form class="form">
+            <div class="input-group">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-group">
+              <i class="fas fa-key"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <button type="button">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
